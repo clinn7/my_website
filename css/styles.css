@@ -1,8 +1,3 @@
-#wrapper {
-  overflow-x: hidden;
-  position: relative;
-}
-
 body {
   margin: auto;
   overflow-x: hidden;
@@ -19,7 +14,6 @@ h2 {
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   font-size: 3rem;
-
 }
 
 p {
@@ -28,17 +22,22 @@ p {
   line-height: 3rem;
 }
 
+#wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
 .credits {
   background: #404040;
-  height: 100%;
+  height: 62.5rem;
   width: 100%;
   text-align: center;
 }
 
 .credits-header {
   font-size: 3rem;
-  max-width: 1000px;
   margin: auto;
+  max-width: 62.5rem;
 }
 
 .credits-link {
@@ -46,51 +45,46 @@ p {
   text-decoration: none;
 }
 
-
-
 .credits-link:hover {
   color: #C70D3A;
 }
 
 .top-bg {
-  background-image: linear-gradient(to right,#230338, #C70D3A, #ED5107);
+  background-image: linear-gradient(to right, #230338, #C70D3A, #ED5107);
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
-  height: 700px;
+  height: 100%;
   overflow: hidden;
   position: absolute;
-  right: -12.5%;
-  width: 125%;
+  right: -5%;
+  width: 110%;
   z-index: -1;
 }
 
 .top-container {
+  height: auto;
   margin-left: 0;
   margin-right: 0;
-  height: 700px;
+  overflow: hidden;
   position: relative;
 }
 
 .top-item1 {
-  height: 700px;
-  margin: auto;
-  padding-top: 200px;
+  height: auto;
+  margin: 8rem auto;
+  position: relative;
   text-align: center;
   width: 100%;
-
 }
 
 .second-container {
-  background-color: #FFFFFF;
-  /* grid-template-rows: repeat(3, 1fr); */
-  height: 950px;
-  margin-left: 0;
-  margin-right: 0;
+  background-color: #FFFFFF
+  height: auto;
+  margin: 8rem 3rem;
   text-align: center;
 }
 
 .second-item1 {
-  padding: 7rem 2rem 2rem;
   text-align: center;
 }
 
@@ -101,7 +95,7 @@ p {
 
 .greeting {
   background-color: #C70D3A;
-  background-image: linear-gradient(to right,#230338, #C70D3A, #ED5107);
+  background-image: linear-gradient(to right, #230338, #C70D3A, #ED5107);
   background-clip: text;
   background-repeat: repeat;
   color: transparent;
@@ -109,14 +103,14 @@ p {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+
 }
 
 .intro {
   color: #230338;
   margin: auto;
-  max-width: 1100px;
+  max-width: 68.75rem;
 }
-
 
 .third-bg {
   background-color: #404040;
@@ -126,106 +120,101 @@ p {
   border-top-right-radius: 100%;
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
-  height: 1300px;
+  height: 90%;
   overflow: hidden;
   position: absolute;
-  right: -75%;
-  width: 250%;
+  right: -25%;
+  width: 150%;
   z-index: -1;
 }
 
 .third-container {
-  height: 1450px;
-  margin-left: 0;
-  margin-right: 0;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
   text-align: center;
 }
 
 .third-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin: 8rem auto;
 }
 
 .third-item1 {
-  margin: auto auto 25px;
+  margin: 3rem 3rem;
   text-align: center;
 }
 
-
 .skills {
-  align-self: center;
   color: #ec2555;
   margin: auto;
-  padding-top: 8rem;
-  padding-bottom: 4rem;
+  padding-top: 6rem;
 }
 
 .third-item2 {
-  float: right;
-  margin: auto auto 100px;
+  margin: auto auto 6.25rem;
   width: 100%;
 }
 
-.skill-header-font1{
-  align-items: flex-end;
-  text-align: right;
+.skill-header-font1 {
   font-size: 5rem;
   margin: auto;
   padding-right: 4rem;
+  text-align: right;
 }
 
 .skills-p1 {
-  text-align: right;
   color: #ec2555;
   padding-right: 4rem;
+  text-align: right;
 }
 
 .third-item3 {
-  float: left;
-  margin: auto auto 100px;
+  margin: auto auto 6.25rem;
   text-align: left;
   width: 100%;
 }
 
 .third-item4 {
-  margin: auto auto 100px;
+  margin: auto auto 6.25rem;
   text-align: left;
   width: 100%;
 }
 
 .HTML {
   height: 256px;
+  margin: 3.125rem;
   width: 256px;
-  margin: 50px;
 }
 
 .css {
   height: 256px;
+  margin: 3.125rem 5rem;
   width: 181.5px;
-  margin: 50px;
 }
 
 .github-lg {
   height: 256px;
+  margin: 3.125rem;
   width: 256px;
-  margin: 50px;
 }
 
 .python {
-  margin: 50px;
+  margin: 3.125rem;
 }
 
 .third-item5 {
-  margin: auto auto 100px;
+  margin: auto;
   text-align: right;
   width: 100%;
-
 }
 
 .skills-p2 {
-  text-align: right;
   color: #ec2555;
   padding-right: 4rem;
+  text-align: right;
 }
 
 .skill-header-font2 {
@@ -234,15 +223,13 @@ p {
   padding-right: 4rem;
   padding-top: 4rem;
   margin: auto auto;
-
 }
 
 .fourth-container {
   background-color: #FFFFFF;
   display: grid;
   height: auto;
-  margin-left: 0;
-  margin-right: 0;
+  margin: auto 3rem 8rem;
 }
 
 .fourth-grid {
@@ -257,92 +244,89 @@ p {
 
 .projects-title {
   background-color: #C70D3A;
-  background-image: linear-gradient(to right,#230338, #C70D3A, #ED5107);
+  background-image: linear-gradient(to right, #230338, #C70D3A, #ED5107);
   background-clip: text;
   background-repeat: repeat;
   color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .projects-p {
   color: #230338;
   margin: auto;
-  max-width: 700px;
+  max-width: 43.75rem;
 }
 
 .fourth-item1 {
-  margin: auto auto 25px;
+  margin: auto;
   text-align: center;
-
 }
 
 .fourth-item2 {
-  margin: auto auto 100px;
+  margin: auto;
   text-align: center;
   width: 100%;
-
 }
 
 .selenium {
   height: 256px;
-  width: 256px;
   margin: auto 2rem auto auto;
+  width: 256px;
 }
 
 .chromedriver {
   height: 256px;
-  width: 256px;
   margin: auto auto auto 2rem;
+  width: 256px;
 }
 
 .fourth-item3 {
   align-self: start;
-  margin: auto auto 100px;
+  margin: auto;
   text-align: center;
   width: 100%;
 }
 
 .pandas {
-  width: auto;
   height: 256px;
   margin: auto 2rem auto auto;
+  width: auto;
 }
 
 .salesforce {
   height: 256px;
-  width: auto;
   margin: auto auto auto 2rem;
+  width: auto;
 }
 
 .fourth-item4 {
-  margin: auto auto 100px;
+  margin: auto;
   text-align: center;
   width: 100%;
 }
 
 .numpy {
   height: 256px;
-  width: auto;
   margin: auto 2rem auto auto;
+  width: auto;
 }
 
 .pillow {
   height: 256px;
-  width: auto;
   margin: auto auto auto 2rem;
+  width: auto;
 }
 
 .fifth-container {
   align-items: center;
-  margin-left: 0;
-  margin-right: 0;
-  max-height: 800px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
   text-align: center;
-
 }
 
 .fifth-bg {
@@ -351,7 +335,7 @@ p {
   border-top: 100px solid #ec2555;
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
-  height: 650px;
+  height: 100%;
   overflow: hidden;
   position: absolute;
   right: -12.5%;
@@ -361,24 +345,23 @@ p {
 
 .fifth-item1 {
   align-self: flex-start;
-  height: 600px;
-  margin: auto;
-  padding-top: 100px;
+  height: 100%;
+  margin: 3rem auto 8rem;
+  padding-top: 6.25rem;
 }
 
 .question {
   color: #ffa200;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 3.125rem;
   width: 75%;
 }
 
 .contact-messsage {
   color: #230338;
-  margin: 40px auto 60px;
+  margin: 2.5rem auto 3.75rem;
   width: 75%;
 }
-
 
 .btn {
   background: #DFF6FF;
@@ -387,11 +370,11 @@ p {
   background-image: -ms-linear-gradient(top, #230338, #230338);
   background-image: -o-linear-gradient(top, #230338, #230338);
   background-image: linear-gradient(to bottom, #230338, #230338);
-  -webkit-border-radius: 60;
-  -moz-border-radius: 60;
   border-radius: 60px;
-  font-family: 'Playfair Display', serif;
+  -moz-border-radius: 60;
+  -webkit-border-radius: 60;
   color: #DFF6FF;
+  font-family: 'Playfair Display', serif;
   font-size: 40px;
   font-weight: bold;
   padding: 10px 20px 10px 20px;
@@ -410,10 +393,10 @@ p {
 
 .bottom-container {
   background-color: #404040;
-  height: 200px;
+  height: 12.5rem;
   margin-left: 0;
   margin-right: 0;
-  padding-top: 120px;
+  padding-top: 7.5rem;
   text-align: center;
 }
 
@@ -422,7 +405,6 @@ p {
   font-size: 2rem;
   margin: 2rem;
   width: 40%;
-
 }
 
 .bottom-text {
@@ -432,7 +414,6 @@ p {
 .bold-this {
   font-weight: bold;
 }
-
 
 .italicize-this {
   font-style: italic;
@@ -448,88 +429,113 @@ p {
   text-align: center;
 }
 
-
-@media (max-width: 2000px) {
+@media (max-width: 1900px) {
   .third-grid {
     grid-template-columns: 1fr;
-  }
-
-  .skills-p1 {
-    padding-right: 0;
-    text-align: center;
-  }
-
-  .skill-header-font1 {
-    padding-right: 0;
-    text-align: center;
+    margin: 8rem auto 10rem;
   }
 
   .third-item2 {
-    margin: auto;
+    text-align: center;
   }
 
   .third-item3 {
     text-align: center;
-    margin: auto auto 50px;
-  }
-
-  .skills-p2 {
-    padding-right: 0;
-    text-align: center;
-  }
-
-  .skill-header-font2 {
-    padding-right: 0;
-    text-align: center;
-  }
-  .third-container {
-    height: 2080px;
-    margin: auto;
-    max-height: 4000px;
   }
 
   .third-item4 {
     text-align: center;
-    margin: auto;
-
   }
 
   .third-item5 {
-    margin: auto;
     text-align: center;
   }
 
-  .third-bg {
-    height: 1950px;
+  .skill-header-font1 {
+    margin: auto 3rem;
+    padding: 0;
+    text-align: center;
   }
 
+  .skills-p1 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .skill-header-font2 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .skills-p2 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .projects-header {
+    margin: 0 auto 4rem;
+  }
+}
+
+@media (max-width: 2750px) {
   .fourth-grid {
     grid-template-columns: 1fr;
   }
 
-  .HTML {
-    margin: 50px 25px;
+  .fourth-item2 {
+    margin: 6rem auto 9.5rem;
+  }
+
+  .fourth-item3 {
+    margin: auto auto 10rem;
   }
 }
 
-@media (max-width: 1540px) {
+@media (max-width: 1000px) {
 
-  .fifth-container {
-    height: 900px;
-    max-height: 1500px;
+  .third-container {
+
+  }
+
+  .third-item4 {
+    margin: auto auto 10rem;
+  }
+
+  .third-grid {
+  margin: 8rem auto 6rem;
+  }
+
+  .selenium {
+    margin: 1rem;
+  }
+
+  .chromedriver {
+    margin: 1rem;
+  }
+
+  .pandas {
+    margin: 1rem;
+  }
+
+  .salesforce {
+    margin: 1rem;
+  }
+
+  .numpy {
+    margin: 1rem;
+  }
+
+  .pillow {
+    margin: 1rem;
   }
 
   .fifth-bg {
-    height: 800px;
+    right: -50%;
+    width: 200%;
   }
 
-  .fifth-item1 {
-    height: 1000px;
-    margin: auto;
-  }
-
-  .bottom-container {
-    height: 200px;
-    padding-top: 120px;
+  .third-bg {
+    right: -75%;
+    width: 250%;
   }
 }
