@@ -158,6 +158,14 @@ p {
   width: 100%;
 }
 
+.software-grid {
+  float: right;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  padding-top: 3rem;
+  text-align: right;
+}
+
 .skill-header-font1 {
   font-size: 5rem;
   margin: auto;
@@ -183,6 +191,19 @@ p {
   width: 100%;
 }
 
+.JavaScript {
+  height: 256px;
+  margin: 3.125rem;
+  width: 256px;
+}
+
+.Bootstrap {
+  height: auto;
+  margin: 3.125rem;
+  padding: 25px 0;
+  width: 256px;
+}
+
 .HTML {
   height: 256px;
   margin: 3.125rem;
@@ -206,9 +227,20 @@ p {
 }
 
 .third-item5 {
+  align-items: flex-start;
   margin: auto;
   text-align: right;
   width: 100%;
+  justify-items: start;
+  margin: 5rem auto auto;
+}
+
+.webdev-grid {
+  float: right;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  padding-top: 3rem;
+  text-align: right;
 }
 
 .skills-p2 {
@@ -221,8 +253,9 @@ p {
   align-self: flex-start;
   font-size: 5rem;
   padding-right: 4rem;
-  padding-top: 4rem;
   margin: auto auto;
+  /* padding-top: -10rem; */
+
 }
 
 .fourth-container {
@@ -432,18 +465,36 @@ p {
 @media (max-width: 1900px) {
   .third-grid {
     grid-template-columns: 1fr;
-    margin: 8rem auto 10rem;
+    margin: 8rem auto 5rem;
   }
 
   .third-item2 {
+    justify-content: center;
     text-align: center;
+  }
+
+  .software-grid {
+    float: none;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem auto;
   }
 
   .third-item3 {
     text-align: center;
+    margin: auto;
+  }
+
+  .webdev-grid {
+    float: none;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem auto;
   }
 
   .third-item4 {
+    margin: auto auto 11rem;
+    padding-left: 2rem;
     text-align: center;
   }
 
@@ -459,27 +510,38 @@ p {
 
   .skills-p1 {
     padding: 0;
-    text-align: center;
+    text-align: left;
   }
 
   .skill-header-font2 {
-    padding: 0;
-    text-align: center;
+    width: 800px;
+    padding-left: 3rem;
+    text-align: left;
   }
 
   .skills-p2 {
     padding: 0;
-    text-align: center;
+    text-align: left;
   }
 
   .projects-header {
     margin: 0 auto 4rem;
+  }
+
+  .third-bg {
+    right: -75%;
+    width: 250%;
   }
 }
 
 @media (max-width: 2750px) {
   .fourth-grid {
     grid-template-columns: 1fr;
+  }
+
+  .software-grid {
+    text-align: center;
+    padding: 3rem auto;
   }
 
   .fourth-item2 {
@@ -497,12 +559,69 @@ p {
 
   }
 
+.third-item2 {
+  margin: auto auto 4rem;
+}
+
+  .software-grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin: auto 2rem;
+    padding: 3rem auto auto;
+    line-height: 1.5;
+    vertical-align: middle;
+  }
+
+.skills-p1 {
+  text-align: center;
+}
+
+.long-skill {
+  margin: 0;
+  line-height: 1.5;
+}
+
   .third-item4 {
-    margin: auto auto 10rem;
+    margin: auto auto 13rem;
+    padding-left: 0;
   }
 
   .third-grid {
   margin: 8rem auto 6rem;
+  }
+
+  .third-item5 {
+    margin: 5rem auto 4rem;
+  }
+
+  .webdev-grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto 2rem;
+    text-align: center;
+    padding: 3rem auto auto;
+    /* text-align: left; */
+    line-height: 1.5;
+    vertical-align: middle;
+  }
+
+  .skill-header-font2 {
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .skills-p2 {
+    text-align: center;
+    line-height: 1;
+
+  }
+
+  .Bootstrap {
+    padding: 0;
   }
 
   .selenium {
@@ -535,7 +654,7 @@ p {
   }
 
   .third-bg {
-    right: -75%;
-    width: 250%;
+    right: -100%;
+    width: 300%;
   }
 }
