@@ -187,6 +187,7 @@ p {
 
 .third-item4 {
   margin: auto auto 6.25rem;
+  padding-top: 10rem;
   text-align: left;
   width: 100%;
 }
@@ -494,11 +495,13 @@ p {
 
   .third-item4 {
     margin: auto auto 11rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
+    padding-top: 4rem;
     text-align: center;
   }
 
   .third-item5 {
+    margin: 5rem auto 1.25rem;
     text-align: center;
   }
 
@@ -586,6 +589,7 @@ p {
   .third-item4 {
     margin: auto auto 13rem;
     padding-left: 0;
+    padding-top: 0;
   }
 
   .third-grid {
